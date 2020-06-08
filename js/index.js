@@ -1,25 +1,36 @@
 // Your code goes here
-let navItm = document.querySelectorAll('.nav-link');
-navItm[0].addEventListener('mouseenter', () => {
-    navItm[0].style.transform = "scale(1.2)";
-});
+// let navItm = document.querySelectorAll('.nav-link');
+// navItm[0].addEventListener('mouseenter', () => {
+//     navItm[0].style.transform = "scale(1.2)";
+// });
 
-navItm[1].addEventListener('mouseenter', () => {
-    navItm[1].style.transform = "scale(1.2)";
-});
+// navItm[1].addEventListener('mouseenter', () => {
+//     navItm[1].style.transform = "scale(1.2)";
+// });
 
-navItm[0].addEventListener('mouseleave', () => {
-    navItm[0].style.transform = "scale(1)";
-});
+// navItm[0].addEventListener('mouseleave', () => {
+//     navItm[0].style.transform = "scale(1)";
+// });
 
-navItm[1].addEventListener('mouseleave', () => {
-    navItm[1].style.transform = "scale(1)";
+// navItm[1].addEventListener('mouseleave', () => {
+//     navItm[1].style.transform = "scale(1)";
+// });
+
+let navItm = document.querySelectorAll('.nav-link').forEach((title) => {
+    title.addEventListener('mouseenter', () => {
+        title.style.transform = "scale(1.5)";
+    });
+    title.addEventListener('mouseleave', () => {
+        title.style.transform = "scale(1)";
+    });
 });
 
 const imgView = document.querySelector('.img');
 window.addEventListener('resize', () => {
     imgView.src = 'img/adventure.jpg';
 });
+
+
 
 const textColor = document.querySelectorAll('.text-content').forEach((title) => {
     title.addEventListener('click', (e) => {

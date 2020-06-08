@@ -201,8 +201,9 @@ img {
 }
 .main-navigation .nav-container .nav {
   width: 350px;
-  display: flex;
   justify-content: space-evenly;
+  display: flex;
+  display: none;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container .nav {
@@ -214,6 +215,11 @@ img {
   font-size: 1.6rem;
   color: #212529;
   text-decoration: none;
+  display: block;
+}
+.main-navigation .nav-container .nav a.icon {
+  background: black;
+  display: block;
 }
 .footer {
   width: 100%;

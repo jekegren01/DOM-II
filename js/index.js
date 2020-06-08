@@ -67,3 +67,12 @@ nest2.addEventListener('click', (e) => {
 //   e.preventDefault();
 //   console.log('Stopped the link from going off!');
 // });
+
+function myFunction() {
+    var x = document.querySelector(".nav");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  };

@@ -15,7 +15,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
 
@@ -33,8 +33,8 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 ## Task 2: Create Unique Event Listeners
 
-* [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
-	* [ ] `mouseover`
+<!-- * [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: -->
+<!-- * [ ] `mouseover`
 	* [ ] `keydown`
 	* [ ] `wheel`
 	* [ ] `drag / drop`
@@ -43,14 +43,14 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [ ] `resize`
 	* [ ] `scroll`
 	* [ ] `select`
-	* [ ] `dblclick`
+	* [ ] `dblclick` -->
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
 * [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
 * [ ] Stop the navigation items from refreshing the page by using `preventDefault()`
 
-## Stretch Task:
+## Stretch Task
 
 * [ ] Go look at [GSAP](https://greensock.com/) and implement the animations found in that library with your custom events.
 

@@ -23,10 +23,15 @@
       }
     }
 
+    .icon .fa {
+      transform: scale(3.0);
+    }
+
     .nav {
       width: 350px;
-      display: flex;
       justify-content: space-evenly;
+      display: flex;
+      display: none;
 
       @media @mobile {
         width: 100%;
@@ -38,6 +43,11 @@
         font-size: 1.6rem;
         color: @font-color;
         text-decoration: none;
+        display: block;
+      }
+      a.icon {
+        background: black;
+        display: block;
       }
     }
   }
